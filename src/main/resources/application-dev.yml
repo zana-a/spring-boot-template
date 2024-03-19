@@ -1,9 +1,9 @@
+logging:
+  level:
+    root: debug
+
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/spring-boot-template
     username: superuser
     password: password
-  jpa:
-    properties:
-      hibernate:
-        format_sql: true
